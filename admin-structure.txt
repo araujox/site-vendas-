@@ -1,0 +1,14 @@
+Current structure:
+- apps/web/src/
+  - components/ (UI components)
+  - components/ui/ (shadcn/ui components)
+  - pages/ (application pages)
+  - hooks/ (custom hooks)
+  - api/ (API services)
+  - data/ (data files)
+
+For admin area, I should create:
+- pages/admin/ (admin pages)
+- components/admin/ (admin-specific components)
+- hooks/admin/ (admin-specific hooks)
+- Possibly extend existing API or create admin API services
